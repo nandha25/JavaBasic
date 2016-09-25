@@ -11,8 +11,9 @@ public class GenericsWildcards {
         double sum = sum(ints);
         System.out.println("Sum of ints="+sum);
     }
-    //public static double sum(List<? extends Number> list)
-    //public static void printData(List<?> list){ = Java Generics Unbounded Wildcard = Java Generics Upper Bounded Wildcard
+    //public static double sum(List<? extends Number> list) = Java Generics Upper Bounded Wildcard
+    //public static void printData(List<?> list){ = Java Generics Unbounded Wildcard
+    //public static void addIntegers(List<? super Integer> list){ = Java Generics Lower bounded Wildcard
 
     public static double sum(List<? extends Number> list){
         double sum = 0;
