@@ -20,9 +20,9 @@ public class Generic {
 
         g2.setT("Hello Word");
 
-        GenericMethod genericMethod = new GenericMethod();
+        GenericInterface genericInterface = new GenericMethod();
 
-        boolean compare = genericMethod.isEqual(g1,g2);
+        boolean compare = genericInterface.isEqual(g1,g2);
 
         System.out.println(compare);
 
