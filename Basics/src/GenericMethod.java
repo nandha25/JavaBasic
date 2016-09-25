@@ -1,7 +1,7 @@
 /**
  * Created by nandh on 25-09-2016.
  */
-public class GenericMethod {
+public class GenericMethod implements  GenericInterface {
 
     public <T> boolean isEqual(GenericClass<T> g1,GenericClass<T> g2){
 
